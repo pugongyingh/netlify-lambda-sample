@@ -1,6 +1,12 @@
 
-import nodemailer from 'nodemailer'
+import nodemailer from 'nodemailer';
+import faunadb from 'faunadb';
+import jwt from 'jsonwebtoken';
+const q = faunadb.query;
 
+const client = new faunadb.Client({
+  secret: `fnADs5ccBTACCm5kbmjncetPrz6o9t2bqV5gQvZl`,
+});
 export async function handler(event, context, callback){
  // const { user, pass} = process.env
  const  body = JSON.parse(event.body);
