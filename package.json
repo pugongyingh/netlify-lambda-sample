@@ -20,6 +20,10 @@
   "homepage": "https://github.com/MoriSouta/netlify-lambda-sample#readme",
   "dependencies": {
     "moment": "^2.24.0",
-    "netlify-lambda": "^1.4.3"
+    "netlify-lambda": "^1.4.3",
+    "faunadb": "^2.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "nodemailer": "^5.1.1"
   }
 }
