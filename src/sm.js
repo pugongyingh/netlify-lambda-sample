@@ -1,5 +1,5 @@
-const nodemailer = require('nodemailer');
 
+import nodemailer from 'nodemailer'
 
 export async function handler(event, context, callback){
  // const { user, pass} = process.env
