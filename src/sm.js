@@ -1,6 +1,6 @@
 
 import nodemailer from 'nodemailer';
-//import faunadb from 'faunadb';
+import faunadb from 'faunadb';
 import jwt from 'jsonwebtoken';
 
 export async function handler(event, context, callback){
